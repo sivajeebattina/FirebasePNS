@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC85ABEA1F1F3A75007A4702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85ABE91F1F3A75007A4702 /* AppDelegate.swift */; };
+		AC85ABEC1F1F3A75007A4702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85ABEB1F1F3A75007A4702 /* ViewController.swift */; };
+		AC85ABEF1F1F3A75007A4702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC85ABED1F1F3A75007A4702 /* Main.storyboard */; };
+		AC85ABF11F1F3A75007A4702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC85ABF01F1F3A75007A4702 /* Assets.xcassets */; };
+		AC85ABF41F1F3A75007A4702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC85ABF21F1F3A75007A4702 /* LaunchScreen.storyboard */; };
+		AC85ABFF1F1F3A75007A4702 /* FirebasePNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85ABFE1F1F3A75007A4702 /* FirebasePNSTests.swift */; };
+		AC85AC0A1F1F3A75007A4702 /* FirebasePNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85AC091F1F3A75007A4702 /* FirebasePNSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC85ABFB1F1F3A75007A4702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC85ABDE1F1F3A75007A4702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC85ABE51F1F3A75007A4702;
+			remoteInfo = FirebasePNS;
+		};
+		AC85AC061F1F3A75007A4702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC85ABDE1F1F3A75007A4702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC85ABE51F1F3A75007A4702;
+			remoteInfo = FirebasePNS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC85ABE61F1F3A75007A4702 /* FirebasePNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC85ABE91F1F3A75007A4702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC85ABEB1F1F3A75007A4702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC85ABEE1F1F3A75007A4702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC85ABF01F1F3A75007A4702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC85ABF31F1F3A75007A4702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC85ABF51F1F3A75007A4702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC85ABFA1F1F3A75007A4702 /* FirebasePNSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePNSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC85ABFE1F1F3A75007A4702 /* FirebasePNSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePNSTests.swift; sourceTree = "<group>"; };
+		AC85AC001F1F3A75007A4702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC85AC051F1F3A75007A4702 /* FirebasePNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC85AC091F1F3A75007A4702 /* FirebasePNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePNSUITests.swift; sourceTree = "<group>"; };
+		AC85AC0B1F1F3A75007A4702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC85ABE31F1F3A75007A4702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC85ABF71F1F3A75007A4702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC85AC021F1F3A75007A4702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC85ABDD1F1F3A75007A4702 = {
+			isa = PBXGroup;
+			children = (
+				AC85ABE81F1F3A75007A4702 /* FirebasePNS */,
+				AC85ABFD1F1F3A75007A4702 /* FirebasePNSTests */,
+				AC85AC081F1F3A75007A4702 /* FirebasePNSUITests */,
+				AC85ABE71F1F3A75007A4702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC85ABE71F1F3A75007A4702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC85ABE61F1F3A75007A4702 /* FirebasePNS.app */,
+				AC85ABFA1F1F3A75007A4702 /* FirebasePNSTests.xctest */,
+				AC85AC051F1F3A75007A4702 /* FirebasePNSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC85ABE81F1F3A75007A4702 /* FirebasePNS */ = {
+			isa = PBXGroup;
+			children = (
+				AC85ABE91F1F3A75007A4702 /* AppDelegate.swift */,
+				AC85ABEB1F1F3A75007A4702 /* ViewController.swift */,
+				AC85ABED1F1F3A75007A4702 /* Main.storyboard */,
+				AC85ABF01F1F3A75007A4702 /* Assets.xcassets */,
+				AC85ABF21F1F3A75007A4702 /* LaunchScreen.storyboard */,
+				AC85ABF51F1F3A75007A4702 /* Info.plist */,
+			);
+			path = FirebasePNS;
+			sourceTree = "<group>";
+		};
+		AC85ABFD1F1F3A75007A4702 /* FirebasePNSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC85ABFE1F1F3A75007A4702 /* FirebasePNSTests.swift */,
+				AC85AC001F1F3A75007A4702 /* Info.plist */,
+			);
+			path = FirebasePNSTests;
+			sourceTree = "<group>";
+		};
+		AC85AC081F1F3A75007A4702 /* FirebasePNSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC85AC091F1F3A75007A4702 /* FirebasePNSUITests.swift */,
+				AC85AC0B1F1F3A75007A4702 /* Info.plist */,
+			);
+			path = FirebasePNSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC85ABE51F1F3A75007A4702 /* FirebasePNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC85AC0E1F1F3A75007A4702 /* Build configuration list for PBXNativeTarget "FirebasePNS" */;
+			buildPhases = (
+				AC85ABE21F1F3A75007A4702 /* Sources */,
+				AC85ABE31F1F3A75007A4702 /* Frameworks */,
+				AC85ABE41F1F3A75007A4702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebasePNS;
+			productName = FirebasePNS;
+			productReference = AC85ABE61F1F3A75007A4702 /* FirebasePNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC85ABF91F1F3A75007A4702 /* FirebasePNSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC85AC111F1F3A75007A4702 /* Build configuration list for PBXNativeTarget "FirebasePNSTests" */;
+			buildPhases = (
+				AC85ABF61F1F3A75007A4702 /* Sources */,
+				AC85ABF71F1F3A75007A4702 /* Frameworks */,
+				AC85ABF81F1F3A75007A4702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC85ABFC1F1F3A75007A4702 /* PBXTargetDependency */,
+			);
+			name = FirebasePNSTests;
+			productName = FirebasePNSTests;
+			productReference = AC85ABFA1F1F3A75007A4702 /* FirebasePNSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC85AC041F1F3A75007A4702 /* FirebasePNSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC85AC141F1F3A75007A4702 /* Build configuration list for PBXNativeTarget "FirebasePNSUITests" */;
+			buildPhases = (
+				AC85AC011F1F3A75007A4702 /* Sources */,
+				AC85AC021F1F3A75007A4702 /* Frameworks */,
+				AC85AC031F1F3A75007A4702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC85AC071F1F3A75007A4702 /* PBXTargetDependency */,
+			);
+			name = FirebasePNSUITests;
+			productName = FirebasePNSUITests;
+			productReference = AC85AC051F1F3A75007A4702 /* FirebasePNSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC85ABDE1F1F3A75007A4702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Uber;
+				TargetAttributes = {
+					AC85ABE51F1F3A75007A4702 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					AC85ABF91F1F3A75007A4702 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC85ABE51F1F3A75007A4702;
+					};
+					AC85AC041F1F3A75007A4702 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC85ABE51F1F3A75007A4702;
+					};
+				};
+			};
+			buildConfigurationList = AC85ABE11F1F3A75007A4702 /* Build configuration list for PBXProject "FirebasePNS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC85ABDD1F1F3A75007A4702;
+			productRefGroup = AC85ABE71F1F3A75007A4702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC85ABE51F1F3A75007A4702 /* FirebasePNS */,
+				AC85ABF91F1F3A75007A4702 /* FirebasePNSTests */,
+				AC85AC041F1F3A75007A4702 /* FirebasePNSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC85ABE41F1F3A75007A4702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC85ABF41F1F3A75007A4702 /* LaunchScreen.storyboard in Resources */,
+				AC85ABF11F1F3A75007A4702 /* Assets.xcassets in Resources */,
+				AC85ABEF1F1F3A75007A4702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC85ABF81F1F3A75007A4702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC85AC031F1F3A75007A4702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC85ABE21F1F3A75007A4702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC85ABEC1F1F3A75007A4702 /* ViewController.swift in Sources */,
+				AC85ABEA1F1F3A75007A4702 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC85ABF61F1F3A75007A4702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC85ABFF1F1F3A75007A4702 /* FirebasePNSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC85AC011F1F3A75007A4702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC85AC0A1F1F3A75007A4702 /* FirebasePNSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC85ABFC1F1F3A75007A4702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC85ABE51F1F3A75007A4702 /* FirebasePNS */;
+			targetProxy = AC85ABFB1F1F3A75007A4702 /* PBXContainerItemProxy */;
+		};
+		AC85AC071F1F3A75007A4702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC85ABE51F1F3A75007A4702 /* FirebasePNS */;
+			targetProxy = AC85AC061F1F3A75007A4702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC85ABED1F1F3A75007A4702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC85ABEE1F1F3A75007A4702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC85ABF21F1F3A75007A4702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC85ABF31F1F3A75007A4702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC85AC0C1F1F3A75007A4702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC85AC0D1F1F3A75007A4702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC85AC0F1F1F3A75007A4702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebasePNS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.FirebasePNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC85AC101F1F3A75007A4702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebasePNS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.FirebasePNS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC85AC121F1F3A75007A4702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebasePNSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.FirebasePNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebasePNS.app/FirebasePNS";
+			};
+			name = Debug;
+		};
+		AC85AC131F1F3A75007A4702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebasePNSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.FirebasePNSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebasePNS.app/FirebasePNS";
+			};
+			name = Release;
+		};
+		AC85AC151F1F3A75007A4702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FirebasePNSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.FirebasePNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebasePNS;
+			};
+			name = Debug;
+		};
+		AC85AC161F1F3A75007A4702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FirebasePNSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.FirebasePNSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebasePNS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC85ABE11F1F3A75007A4702 /* Build configuration list for PBXProject "FirebasePNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC85AC0C1F1F3A75007A4702 /* Debug */,
+				AC85AC0D1F1F3A75007A4702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC85AC0E1F1F3A75007A4702 /* Build configuration list for PBXNativeTarget "FirebasePNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC85AC0F1F1F3A75007A4702 /* Debug */,
+				AC85AC101F1F3A75007A4702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC85AC111F1F3A75007A4702 /* Build configuration list for PBXNativeTarget "FirebasePNSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC85AC121F1F3A75007A4702 /* Debug */,
+				AC85AC131F1F3A75007A4702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC85AC141F1F3A75007A4702 /* Build configuration list for PBXNativeTarget "FirebasePNSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC85AC151F1F3A75007A4702 /* Debug */,
+				AC85AC161F1F3A75007A4702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC85ABDE1F1F3A75007A4702 /* Project object */;
+}
